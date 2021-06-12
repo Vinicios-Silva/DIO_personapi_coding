@@ -40,7 +40,7 @@ mvn spring-boot:run
 Após executar o comando acima, basta apenas abrir o endereço http://localhost:8080/api/v1 + RECURSO e visualizar a execução do projeto:
 
 MÉTODO	/RECURSO	/RESULTADO
-- GET	    /pessoas	      retorna lista de pessoas
+- GET	    /pessoas/	      retorna lista de pessoas
 - GET	    /pessoas/{id}	  retorna uma pessoa específica
 - POST	  /pessoas	      cria uma nova pessoa
 - PUT	    /pessoas/{id}	  atualiza, de forma integral, uma pessoa
