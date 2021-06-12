@@ -49,7 +49,7 @@
 		<dependency> <!-- inserido-->
 			<groupId>org.mapstruct</groupId> <!-- inserido-->
 			<artifactId>mapstruct</artifactId> <!-- inserido-->
-			<version>1.3.1.Final</version> <!-- inserido-->
+			<version>1.4.2.Final</version> <!-- inserido-->
 		</dependency> <!-- inserido-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -62,7 +62,21 @@
 				</exclusion> <!-- inserido-->
 			</exclusions> <!-- inserido-->
 		</dependency>
-	</dependencies>
+        <dependency>
+            <groupId>org.assertj</groupId>
+            <artifactId>assertj-core</artifactId>
+        </dependency>
+		<dependency>
+			<groupId>javax.validation</groupId>
+			<artifactId>validation-api</artifactId>
+			<version>2.0.1.Final</version>
+		</dependency>
+		<dependency>
+			<groupId>org.hibernate.validator</groupId>
+			<artifactId>hibernate-validator</artifactId>
+			<version>7.0.1.Final</version>
+		</dependency>
+    </dependencies>
 
 	<build>
 		<plugins>
@@ -85,7 +99,7 @@
 						<path>
 							<groupId>org.mapstruct</groupId>
 							<artifactId>mapstruct-processor</artifactId>
-							<version>1.3.1.Final</version>
+							<version>1.4.2.Final</version>
 						</path>
 					</annotationProcessorPaths>
 				</configuration>
