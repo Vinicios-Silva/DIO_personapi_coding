@@ -42,6 +42,6 @@ Após executar o comando acima, basta apenas abrir o endereço http://localhost:
 MÉTODO	/RECURSO	/RESULTADO
 - GET	    /pessoas/	      retorna lista de pessoas
 - GET	    /pessoas/{id}	  retorna uma pessoa específica
-- POST	  /pessoas	      cria uma nova pessoa
+- POST	  /pessoas/	      cria uma nova pessoa
 - PUT	    /pessoas/{id}	  atualiza, de forma integral, uma pessoa
 - DELETE	/pessoas/{id}	  deleta uma pessoa
